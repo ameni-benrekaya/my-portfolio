@@ -1,0 +1,461 @@
+{
+ "projects": {
+  "featured": [
+   {
+    "href": "https://twills-consulting.tn/",
+    "img": "assets/consulting-firm-2.webp",
+    "alt": "Consulting firm — screenshot",
+    "where": "Twills · Tunisia",
+    "title": "Twills Consulting",
+    "text": "Corporate site for a finance and compliance consultancy.",
+    "tags": [
+     "WordPress",
+     "Design"
+    ]
+   },
+   {
+    "href": "https://esvs.org/",
+    "img": "assets/esvs-3.webp",
+    "alt": "ESVS — screenshot",
+    "where": "ESVS · Europe · via Kwantic",
+    "title": "Vascular surgery society",
+    "text": "Membership site for a European medical society: events, e-learning, library and shop.",
+    "tags": [
+     "WordPress",
+     "Elementor",
+     "WooCommerce"
+    ]
+   },
+   {
+    "href": "https://albr.org/",
+    "img": "assets/charity-platform-4.webp",
+    "alt": "Charity platform — screenshot",
+    "where": "Albr · Saudi Arabia",
+    "title": "Albr",
+    "text": "Responsive interface designed, then integrated into WordPress.",
+    "tags": [
+     "Arabic RTL",
+     "Figma",
+     "WordPress"
+    ]
+   }
+  ],
+  "rtl": [
+   {
+    "href": "https://eastkhair.org/",
+    "img": "assets/associations-platform-6.webp",
+    "alt": "Associations platform — screenshot",
+    "where": "East Khair · Saudi Arabia",
+    "title": "East Khair",
+    "text": "Platform for the charitable associations of the Eastern Province.",
+    "tags": [
+     "Arabic RTL",
+     "Figma",
+     "HTML/CSS"
+    ]
+   },
+   {
+    "href": "https://modeem.org.sa/",
+    "img": "assets/digital-transformation-portal-7.webp",
+    "alt": "Digital transformation portal — screenshot",
+    "where": "Modeem · Saudi Arabia",
+    "title": "Modeem",
+    "text": "Digital transformation portal for the non-profit sector.",
+    "tags": [
+     "Arabic RTL",
+     "Lovable",
+     "Integration"
+    ]
+   },
+   {
+    "href": "",
+    "img": "assets/brand-amp-product-site-8.webp",
+    "alt": "Brand &amp; product site — screenshot",
+    "where": "Modeem · Saudi Arabia",
+    "title": "Brand &amp; product site",
+    "text": "Layouts designed from wireframes, then coded responsive.",
+    "tags": [
+     "Arabic RTL",
+     "Design system",
+     "HTML/CSS",
+     "JavaScript"
+    ]
+   }
+  ],
+  "europe": [
+   {
+    "href": "https://charentestourisme.com/",
+    "img": "assets/charentes-tourisme-9.webp",
+    "alt": "Charentes Tourisme — screenshot",
+    "where": "Charente Tourisme · France",
+    "title": "Charentes Tourisme",
+    "text": "Over 60 sites built with Gutenberg under Charente Tourisme's direction, then kept updated and consistent.",
+    "tags": [
+     "WordPress",
+     "PHP",
+     "Maintenance"
+    ]
+   },
+   {
+    "href": "",
+    "img": "assets/employment4youth-10.webp",
+    "alt": "Employment4Youth — screenshot",
+    "where": "UNIDO · Tunisia",
+    "title": "Employment4Youth",
+    "text": "Project website designed and built end to end for a UN programme.",
+    "tags": [
+     "Design",
+     "WordPress",
+     "Responsive"
+    ]
+   },
+   {
+    "href": "https://smarthealth-sa.com/",
+    "img": "assets/healthcare-platform-11.webp",
+    "alt": "Healthcare platform — screenshot",
+    "where": "SmartHealth · Saudi Arabia",
+    "title": "Healthcare platform",
+    "text": "Page design in Figma, then full WordPress integration.",
+    "tags": [
+     "Figma",
+     "WordPress"
+    ]
+   },
+   {
+    "href": "",
+    "img": "assets/work-life-balance-platform-12.webp",
+    "alt": "Work-life balance platform — screenshot",
+    "where": "Tawazon · Saudi Arabia",
+    "title": "Work-life balance platform",
+    "text": "Designed in Figma, coded as a responsive front-end.",
+    "tags": [
+     "Figma",
+     "HTML/CSS"
+    ]
+   },
+   {
+    "href": "",
+    "img": "assets/conference-website-13.webp",
+    "alt": "Conference website — screenshot",
+    "where": "AISMA · Africa 4.0",
+    "title": "Conference website",
+    "text": "Conference site on smart manufacturing in Africa.",
+    "tags": [
+     "Design",
+     "WordPress"
+    ]
+   },
+   {
+    "href": "",
+    "img": "assets/high-pressure-cleaning-store-14.webp",
+    "alt": "High-pressure cleaning store — screenshot",
+    "where": "Dimaco · France",
+    "title": "High-pressure cleaning store",
+    "text": "Catalogue and guided product finder for industrial equipment.",
+    "tags": [
+     "Next.js",
+     "React"
+    ]
+   },
+   {
+    "href": "",
+    "img": "assets/industrial-equipment-store-15.webp",
+    "alt": "Industrial equipment store — screenshot",
+    "where": "Hydroclean · France",
+    "title": "Industrial equipment store",
+    "text": "Large catalogue with filtering and a step-by-step finder.",
+    "tags": [
+     "Next.js",
+     "React"
+    ]
+   },
+   {
+    "href": "https://eclair-recrutement.com/",
+    "img": "assets/recruitment-agency-16.webp",
+    "alt": "Recruitment agency — screenshot",
+    "where": "Eclair · France",
+    "title": "Recruitment agency",
+    "text": "Corporate site for a recruitment agency.",
+    "tags": [
+     "Figma",
+     "WordPress"
+    ]
+   },
+   {
+    "href": "https://www.auditionconseil.fr/",
+    "img": "assets/hearing-care-network-17.webp",
+    "alt": "Hearing-care network — screenshot",
+    "where": "Audition Conseil · France",
+    "title": "Hearing-care network",
+    "text": "Service pages and store locator for a hearing-care network.",
+    "tags": [
+     "WordPress",
+     "UI design"
+    ]
+   },
+   {
+    "href": "https://www.mybeers.fr/",
+    "img": "assets/bar-amp-bottle-shop-18.webp",
+    "alt": "Bar &amp; bottle shop — screenshot",
+    "where": "My Beers · France",
+    "title": "Bar &amp; bottle shop",
+    "text": "Site for a craft beer bar, shop and events space.",
+    "tags": [
+     "WordPress",
+     "UI design"
+    ]
+   },
+   {
+    "href": "https://2wayanalytics.com/",
+    "img": "assets/2wayanalytics-19.webp",
+    "alt": "2WayAnalytics — screenshot",
+    "where": "2WayAnalytics",
+    "title": "AI social analytics SaaS",
+    "text": "Marketing site for an AI social-media analytics product, hand-coded across multiple pages.",
+    "tags": [
+     "HTML/CSS",
+     "JavaScript",
+     "Responsive"
+    ]
+   }
+  ]
+ },
+ "skills": [
+  {
+   "group": "WordPress",
+   "items": [
+    {
+     "label": "Custom themes",
+     "dim": false
+    },
+    {
+     "label": "Plugins",
+     "dim": false
+    },
+    {
+     "label": "Gutenberg blocks",
+     "dim": false
+    },
+    {
+     "label": "ACF",
+     "dim": false
+    },
+    {
+     "label": "Elementor Pro",
+     "dim": false
+    },
+    {
+     "label": "WooCommerce",
+     "dim": false
+    },
+    {
+     "label": "Hooks &amp; filters",
+     "dim": false
+    },
+    {
+     "label": "WP REST API",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "group": "Front-end",
+   "items": [
+    {
+     "label": "HTML5",
+     "dim": false
+    },
+    {
+     "label": "CSS3",
+     "dim": false
+    },
+    {
+     "label": "SASS",
+     "dim": false
+    },
+    {
+     "label": "JavaScript (ES6+)",
+     "dim": false
+    },
+    {
+     "label": "Tailwind CSS",
+     "dim": false
+    },
+    {
+     "label": "Bootstrap",
+     "dim": false
+    },
+    {
+     "label": "jQuery",
+     "dim": false
+    },
+    {
+     "label": "Responsive design",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "group": "Design",
+   "items": [
+    {
+     "label": "Figma",
+     "dim": false
+    },
+    {
+     "label": "Adobe XD",
+     "dim": false
+    },
+    {
+     "label": "Design systems",
+     "dim": false
+    },
+    {
+     "label": "Wireframing",
+     "dim": false
+    },
+    {
+     "label": "Prototyping",
+     "dim": false
+    },
+    {
+     "label": "RTL layouts",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "group": "AI workflow",
+   "items": [
+    {
+     "label": "Claude",
+     "dim": false
+    },
+    {
+     "label": "MCP servers",
+     "dim": false
+    },
+    {
+     "label": "Cursor",
+     "dim": false
+    },
+    {
+     "label": "Elementor AI",
+     "dim": false
+    },
+    {
+     "label": "Figma Make",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "group": "Performance &amp; SEO",
+   "items": [
+    {
+     "label": "Core Web Vitals",
+     "dim": false
+    },
+    {
+     "label": "Page speed",
+     "dim": false
+    },
+    {
+     "label": "Technical SEO",
+     "dim": false
+    },
+    {
+     "label": "Cross-browser QA",
+     "dim": false
+    },
+    {
+     "label": "Accessible markup",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "group": "Back-end &amp; data",
+   "items": [
+    {
+     "label": "PHP",
+     "dim": false
+    },
+    {
+     "label": "MySQL",
+     "dim": false
+    },
+    {
+     "label": "REST APIs",
+     "dim": false
+    },
+    {
+     "label": "JSON",
+     "dim": false
+    },
+    {
+     "label": "Migrations",
+     "dim": false
+    },
+    {
+     "label": "Deployments",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "group": "Tooling",
+   "items": [
+    {
+     "label": "Git",
+     "dim": false
+    },
+    {
+     "label": "GitHub",
+     "dim": false
+    },
+    {
+     "label": "VS Code",
+     "dim": false
+    },
+    {
+     "label": "Chrome DevTools",
+     "dim": false
+    },
+    {
+     "label": "Staging workflows",
+     "dim": false
+    }
+   ]
+  },
+  {
+   "group": "Also worked with",
+   "items": [
+    {
+     "label": "React",
+     "dim": true
+    },
+    {
+     "label": "Next.js",
+     "dim": true
+    },
+    {
+     "label": "Vue.js",
+     "dim": true
+    },
+    {
+     "label": "Drupal",
+     "dim": true
+    },
+    {
+     "label": "PrestaShop",
+     "dim": true
+    },
+    {
+     "label": "Webflow",
+     "dim": true
+    }
+   ]
+  }
+ ]
+}
