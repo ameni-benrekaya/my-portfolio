@@ -207,7 +207,7 @@ nav.top.away{transform:translateY(-110%)}
 /* ============================================================
    NUMBERS — the page's single dark moment
    ============================================================ */
-.numbers{margin:var(--s5) calc(50% - 50vw) 0;width:100vw;background:var(--ink);color:var(--paper);
+.numbers{margin:var(--s5) calc(50% - 50vw) 0;width:100%;background:var(--ink);color:var(--paper);
   padding:var(--s5) 0;overflow:hidden;position:relative}
 .numbers .inner{max-width:1200px;margin:0 auto;padding:0 var(--s3)}
 .numbers .eye{color:rgba(255,255,255,.5)}

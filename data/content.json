@@ -3,7 +3,7 @@
   "featured": [
    {
     "href": "https://twills-consulting.tn/",
-    "img": "assets/consulting-firm-2.webp",
+    "img": "assets/twills.png",
     "alt": "Consulting firm — screenshot",
     "where": "Twills · Tunisia",
     "title": "Twills Consulting",
@@ -13,29 +13,15 @@
      "Design"
     ]
    },
-   {
-    "href": "https://esvs.org/",
-    "img": "assets/esvs-3.webp",
-    "alt": "ESVS — screenshot",
-    "where": "ESVS · Europe · via Kwantic",
-    "title": "Vascular surgery society",
-    "text": "Membership site for a European medical society: events, e-learning, library and shop.",
+  {
+    "href": "",
+    "img": "assets/aisma.png",
+    "alt": "Conference website — screenshot",
+    "where": "AISMA · Africa 4.0",
+    "title": " Alliance for I4.0 and Smart Manufacturing in Africa (AISMA)",
+    "text": "Conference site on smart manufacturing in Africa.",
     "tags": [
-     "WordPress",
-     "Elementor",
-     "WooCommerce"
-    ]
-   },
-   {
-    "href": "https://albr.org/",
-    "img": "assets/charity-platform-4.webp",
-    "alt": "Charity platform — screenshot",
-    "where": "Albr · Saudi Arabia",
-    "title": "Albr",
-    "text": "Responsive interface designed, then integrated into WordPress.",
-    "tags": [
-     "Arabic RTL",
-     "Figma",
+     "Design",
      "WordPress"
     ]
    }
@@ -43,10 +29,10 @@
   "rtl": [
    {
     "href": "https://eastkhair.org/",
-    "img": "assets/associations-platform-6.webp",
+    "img": "assets/sharquia.png",
     "alt": "Associations platform — screenshot",
     "where": "East Khair · Saudi Arabia",
-    "title": "East Khair",
+    "title": "Bounty of the Eastern Province",
     "text": "Platform for the charitable associations of the Eastern Province.",
     "tags": [
      "Arabic RTL",
@@ -56,7 +42,7 @@
    },
    {
     "href": "https://modeem.org.sa/",
-    "img": "assets/digital-transformation-portal-7.webp",
+    "img": "assets/modeem.png",
     "alt": "Digital transformation portal — screenshot",
     "where": "Modeem · Saudi Arabia",
     "title": "Modeem",
@@ -69,10 +55,10 @@
    },
    {
     "href": "",
-    "img": "assets/brand-amp-product-site-8.webp",
+    "img": "assets/haddab.png",
     "alt": "Brand &amp; product site — screenshot",
-    "where": "Modeem · Saudi Arabia",
-    "title": "Brand &amp; product site",
+    "where": "Haddab · Saudi Arabia",
+    "title": "Haddab",
     "text": "Layouts designed from wireframes, then coded responsive.",
     "tags": [
      "Arabic RTL",
@@ -81,11 +67,38 @@
      "JavaScript"
     ]
    }
+   ,
+   {
+    "href": "https://albr.org/",
+    "img": "assets/albar.png",
+    "alt": "Charity platform — screenshot",
+    "where": "Albr · Saudi Arabia",
+    "title": "Albr",
+    "text": "Responsive interface designed, then integrated into WordPress.",
+    "tags": [
+     "Arabic RTL",
+     "Figma",
+     "WordPress"
+    ]
+   }
   ],
   "europe": [
+       {
+    "href": "https://esvs.org/",
+    "img": "assets/esvs-p1.png",
+    "alt": "ESVS — screenshot",
+    "where": "ESVS · Europe · via Kwantic",
+    "title": "Vascular surgery society",
+    "text": "Membership site for a European medical society: events, e-learning, library and shop.",
+    "tags": [
+     "WordPress",
+     "Elementor",
+     "WooCommerce"
+    ]
+   },
    {
     "href": "https://charentestourisme.com/",
-    "img": "assets/charentes-tourisme-9.webp",
+    "img": "assets/charentes.png",
     "alt": "Charentes Tourisme — screenshot",
     "where": "Charente Tourisme · France",
     "title": "Charentes Tourisme",
@@ -98,7 +111,7 @@
    },
    {
     "href": "",
-    "img": "assets/employment4youth-10.webp",
+    "img": "assets/unido.png",
     "alt": "Employment4Youth — screenshot",
     "where": "UNIDO · Tunisia",
     "title": "Employment4Youth",
@@ -111,7 +124,7 @@
    },
    {
     "href": "https://smarthealth-sa.com/",
-    "img": "assets/healthcare-platform-11.webp",
+    "img": "assets/smart.png",
     "alt": "Healthcare platform — screenshot",
     "where": "SmartHealth · Saudi Arabia",
     "title": "Healthcare platform",
@@ -121,33 +134,9 @@
      "WordPress"
     ]
    },
-   {
+    {
     "href": "",
-    "img": "assets/work-life-balance-platform-12.webp",
-    "alt": "Work-life balance platform — screenshot",
-    "where": "Tawazon · Saudi Arabia",
-    "title": "Work-life balance platform",
-    "text": "Designed in Figma, coded as a responsive front-end.",
-    "tags": [
-     "Figma",
-     "HTML/CSS"
-    ]
-   },
-   {
-    "href": "",
-    "img": "assets/conference-website-13.webp",
-    "alt": "Conference website — screenshot",
-    "where": "AISMA · Africa 4.0",
-    "title": "Conference website",
-    "text": "Conference site on smart manufacturing in Africa.",
-    "tags": [
-     "Design",
-     "WordPress"
-    ]
-   },
-   {
-    "href": "",
-    "img": "assets/high-pressure-cleaning-store-14.webp",
+    "img": "assets/dimaco.png",
     "alt": "High-pressure cleaning store — screenshot",
     "where": "Dimaco · France",
     "title": "High-pressure cleaning store",
@@ -159,7 +148,7 @@
    },
    {
     "href": "",
-    "img": "assets/industrial-equipment-store-15.webp",
+    "img": "assets/hydroclean.png",
     "alt": "Industrial equipment store — screenshot",
     "where": "Hydroclean · France",
     "title": "Industrial equipment store",
@@ -169,21 +158,10 @@
      "React"
     ]
    },
-   {
-    "href": "https://eclair-recrutement.com/",
-    "img": "assets/recruitment-agency-16.webp",
-    "alt": "Recruitment agency — screenshot",
-    "where": "Eclair · France",
-    "title": "Recruitment agency",
-    "text": "Corporate site for a recruitment agency.",
-    "tags": [
-     "Figma",
-     "WordPress"
-    ]
-   },
+   
    {
     "href": "https://www.auditionconseil.fr/",
-    "img": "assets/hearing-care-network-17.webp",
+    "img": "assets/audition.png",
     "alt": "Hearing-care network — screenshot",
     "where": "Audition Conseil · France",
     "title": "Hearing-care network",
@@ -195,10 +173,10 @@
    },
    {
     "href": "https://www.mybeers.fr/",
-    "img": "assets/bar-amp-bottle-shop-18.webp",
+    "img": "assets/beers.png",
     "alt": "Bar &amp; bottle shop — screenshot",
     "where": "My Beers · France",
-    "title": "Bar &amp; bottle shop",
+    "title": "Event Beer Bar Franchise",
     "text": "Site for a craft beer bar, shop and events space.",
     "tags": [
      "WordPress",
@@ -207,7 +185,7 @@
    },
    {
     "href": "https://2wayanalytics.com/",
-    "img": "assets/2wayanalytics-19.webp",
+    "img": "assets/2wayanalytics.png",
     "alt": "2WayAnalytics — screenshot",
     "where": "2WayAnalytics",
     "title": "AI social analytics SaaS",

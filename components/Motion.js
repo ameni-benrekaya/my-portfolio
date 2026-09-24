@@ -77,7 +77,10 @@ export default function Motion() {
       
         /* odometer numbers */
         document.querySelectorAll('.nrow').forEach(function(row){
-          var target = row.dataset.num, suffix = row.dataset.suffix || '', box = row.querySelector('.odo');
+          var box = row.querySelector('.odo');
+          // Prevent double-initialisation (React strict mode runs effects twice in dev)
+          if (!box || box.querySelector('.dig')) return;
+          var target = row.dataset.num, suffix = row.dataset.suffix || '';
           target.split('').forEach(function(d){
             var dig = document.createElement('span'); dig.className = 'dig';
             var col = document.createElement('u');
