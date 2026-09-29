@@ -1,4 +1,3 @@
-import Motion from "@/components/Motion";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Featured from "@/components/Featured";
@@ -8,7 +7,7 @@ import Services from "@/components/Services";
 import Work from "@/components/Work";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
+import Motion from "@/components/Motion";
 
 export default function Home() {
   return (
@@ -26,7 +25,6 @@ export default function Home() {
         <Work />
         <Skills />
         <Contact />
-        <Footer />
       </div>
       <Motion />
     </>

@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import { projects } from "@/data/site";
+import { featured } from "@/data/site";
 
 export default function Featured() {
   return (
@@ -12,9 +12,7 @@ export default function Featured() {
         </p>
       </div>
       <div className="works featured">
-        {projects.featured.map((p) => (
-          <ProjectCard key={p.title} p={p} featured />
-        ))}
+        {featured.map((p) => <ProjectCard key={p.title} p={p} featured />)}
       </div>
       <p className="rise" style={{ marginTop: "var(--s3)" }}>
         <a className="btn quiet" href="#work">See all projects ↗</a>

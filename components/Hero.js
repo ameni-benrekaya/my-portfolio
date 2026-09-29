@@ -14,12 +14,8 @@ export default function Hero() {
       <div className="hero-foot">
         <p className="rotor">
           <span className="fixed">Built for</span>
-          <span className="slot" id="rotor">
-            <u>
-              {[...site.audiences, site.audiences[0]].map((a, i) => (
-                <b key={i}>{a}</b>
-              ))}
-            </u>
+          <span className="slot" id="rotor" data-words={JSON.stringify(site.audiences)}>
+            <u><b>{site.audiences[0]}</b></u>
           </span>
         </p>
         <div>

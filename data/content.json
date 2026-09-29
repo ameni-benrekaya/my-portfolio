@@ -1,203 +1,223 @@
 {
- "projects": {
-  "featured": [
-   {
-    "href": "https://twills-consulting.tn/",
-    "img": "assets/twills.png",
-    "alt": "Consulting firm — screenshot",
-    "where": "Twills · Tunisia",
-    "title": "Twills Consulting",
-    "text": "Corporate site for a finance and compliance consultancy.",
-    "tags": [
-     "WordPress",
-     "Design"
-    ]
-   },
+ "featured": [
   {
-    "href": "",
-    "img": "assets/aisma.png",
-    "alt": "Conference website — screenshot",
-    "where": "AISMA · Africa 4.0",
-    "title": " Alliance for I4.0 and Smart Manufacturing in Africa (AISMA)",
-    "text": "Conference site on smart manufacturing in Africa.",
-    "tags": [
-     "Design",
-     "WordPress"
-    ]
-   }
-  ],
-  "rtl": [
-   {
-    "href": "https://eastkhair.org/",
-    "img": "assets/sharquia.png",
-    "alt": "Associations platform — screenshot",
-    "where": "East Khair · Saudi Arabia",
-    "title": "Bounty of the Eastern Province",
-    "text": "Platform for the charitable associations of the Eastern Province.",
-    "tags": [
-     "Arabic RTL",
-     "Figma",
-     "HTML/CSS"
-    ]
-   },
-   {
-    "href": "https://modeem.org.sa/",
-    "img": "assets/modeem.png",
-    "alt": "Digital transformation portal — screenshot",
-    "where": "Modeem · Saudi Arabia",
-    "title": "Modeem",
-    "text": "Digital transformation portal for the non-profit sector.",
-    "tags": [
-     "Arabic RTL",
-     "Lovable",
-     "Integration"
-    ]
-   },
-   {
-    "href": "",
-    "img": "assets/haddab.png",
-    "alt": "Brand &amp; product site — screenshot",
-    "where": "Haddab · Saudi Arabia",
-    "title": "Haddab",
-    "text": "Layouts designed from wireframes, then coded responsive.",
-    "tags": [
-     "Arabic RTL",
-     "Design system",
-     "HTML/CSS",
-     "JavaScript"
-    ]
-   }
-   ,
-   {
-    "href": "https://albr.org/",
-    "img": "assets/albar.png",
-    "alt": "Charity platform — screenshot",
-    "where": "Albr · Saudi Arabia",
-    "title": "Albr",
-    "text": "Responsive interface designed, then integrated into WordPress.",
-    "tags": [
-     "Arabic RTL",
-     "Figma",
-     "WordPress"
-    ]
-   }
-  ],
-  "europe": [
-       {
-    "href": "https://esvs.org/",
-    "img": "assets/esvs-p1.png",
-    "alt": "ESVS — screenshot",
-    "where": "ESVS · Europe · via Kwantic",
-    "title": "Vascular surgery society",
-    "text": "Membership site for a European medical society: events, e-learning, library and shop.",
-    "tags": [
-     "WordPress",
-     "Elementor",
-     "WooCommerce"
-    ]
-   },
-   {
-    "href": "https://charentestourisme.com/",
-    "img": "assets/charentes.png",
-    "alt": "Charentes Tourisme — screenshot",
-    "where": "Charente Tourisme · France",
-    "title": "Charentes Tourisme",
-    "text": "Over 60 sites built with Gutenberg under Charente Tourisme's direction, then kept updated and consistent.",
-    "tags": [
-     "WordPress",
-     "PHP",
-     "Maintenance"
-    ]
-   },
-   {
-    "href": "",
-    "img": "assets/unido.png",
-    "alt": "Employment4Youth — screenshot",
-    "where": "UNIDO · Tunisia",
-    "title": "Employment4Youth",
-    "text": "Project website designed and built end to end for a UN programme.",
-    "tags": [
-     "Design",
-     "WordPress",
-     "Responsive"
-    ]
-   },
-   {
-    "href": "https://smarthealth-sa.com/",
-    "img": "assets/smart.png",
-    "alt": "Healthcare platform — screenshot",
-    "where": "SmartHealth · Saudi Arabia",
-    "title": "Healthcare platform",
-    "text": "Page design in Figma, then full WordPress integration.",
-    "tags": [
-     "Figma",
-     "WordPress"
-    ]
-   },
-    {
-    "href": "",
-    "img": "assets/dimaco.png",
-    "alt": "High-pressure cleaning store — screenshot",
-    "where": "Dimaco · France",
-    "title": "High-pressure cleaning store",
-    "text": "Catalogue and guided product finder for industrial equipment.",
-    "tags": [
-     "Next.js",
-     "React"
-    ]
-   },
-   {
-    "href": "",
-    "img": "assets/hydroclean.png",
-    "alt": "Industrial equipment store — screenshot",
-    "where": "Hydroclean · France",
-    "title": "Industrial equipment store",
-    "text": "Large catalogue with filtering and a step-by-step finder.",
-    "tags": [
-     "Next.js",
-     "React"
-    ]
-   },
-   
-   {
-    "href": "https://www.auditionconseil.fr/",
-    "img": "assets/audition.png",
-    "alt": "Hearing-care network — screenshot",
-    "where": "Audition Conseil · France",
-    "title": "Hearing-care network",
-    "text": "Service pages and store locator for a hearing-care network.",
-    "tags": [
-     "WordPress",
-     "UI design"
-    ]
-   },
-   {
-    "href": "https://www.mybeers.fr/",
-    "img": "assets/beers.png",
-    "alt": "Bar &amp; bottle shop — screenshot",
-    "where": "My Beers · France",
-    "title": "Event Beer Bar Franchise",
-    "text": "Site for a craft beer bar, shop and events space.",
-    "tags": [
-     "WordPress",
-     "UI design"
-    ]
-   },
-   {
-    "href": "https://2wayanalytics.com/",
-    "img": "assets/2wayanalytics.png",
-    "alt": "2WayAnalytics — screenshot",
-    "where": "2WayAnalytics",
-    "title": "AI social analytics SaaS",
-    "text": "Marketing site for an AI social-media analytics product, hand-coded across multiple pages.",
-    "tags": [
-     "HTML/CSS",
-     "JavaScript",
-     "Responsive"
-    ]
-   }
-  ]
- },
+   "href": "https://twills-consulting.tn/",
+   "img": "/assets/consulting-firm-2.webp",
+   "alt": "Consulting firm — screenshot",
+   "where": "Twills · France",
+   "title": "Consulting firm",
+   "text": "Corporate site for a finance and compliance consultancy.",
+   "tags": [
+    "WordPress",
+    "Design"
+   ]
+  },
+  {
+   "href": "https://esvs.org/",
+   "img": "/assets/esvs-3.webp",
+   "alt": "ESVS — screenshot",
+   "where": "ESVS · Europe · via Kwantic",
+   "title": "Vascular surgery society",
+   "text": "Membership site for a European medical society: events, e-learning, library and shop.",
+   "tags": [
+    "WordPress",
+    "Elementor",
+    "WooCommerce"
+   ]
+  },
+  {
+   "href": "https://albr.org/",
+   "img": "/assets/charity-platform-4.webp",
+   "alt": "Charity platform — screenshot",
+   "where": "Albr · Saudi Arabia",
+   "title": "Albr",
+   "text": "Responsive interface designed, then integrated into WordPress.",
+   "tags": [
+    "Arabic RTL",
+    "Figma",
+    "WordPress"
+   ]
+  }
+ ],
+ "rtl": [
+  {
+   "href": "https://eastkhair.org/",
+   "img": "/assets/associations-platform-6.webp",
+   "alt": "Associations platform — screenshot",
+   "where": "East Khair · Saudi Arabia",
+   "title": "East Khair",
+   "text": "Platform for the charitable associations of the Eastern Province.",
+   "tags": [
+    "Arabic RTL",
+    "Figma",
+    "Odoo"
+   ]
+  },
+  {
+   "href": "https://modeem.org.sa/",
+   "img": "/assets/digital-transformation-portal-7.webp",
+   "alt": "Digital transformation portal — screenshot",
+   "where": "Modeem · Saudi Arabia",
+   "title": "Modeem",
+   "text": "Digital transformation portal for the non-profit sector.",
+   "tags": [
+    "Arabic RTL",
+    "Lovable",
+    "Integration"
+   ]
+  },
+  {
+   "href": "",
+   "img": "/assets/brand-amp-product-site-8.webp",
+   "alt": "Brand &amp; product site — screenshot",
+   "where": "Modeem · Saudi Arabia",
+   "title": "Haddab",
+   "text": "Layouts designed from wireframes, then coded responsive.",
+   "tags": [
+    "Arabic RTL",
+    "Design system",
+    "HTML/CSS",
+    "JavaScript"
+   ]
+  }
+ ],
+ "europe": [
+  {
+   "href": "https://charentestourisme.com/",
+   "img": "/assets/charentes-tourisme-9.webp",
+   "alt": "Charentes Tourisme — screenshot",
+   "where": "Charente Tourisme · France",
+   "title": "Charentes Tourisme",
+   "text": "Over 60 sites built with Gutenberg for the tourism agency of both Charente départements, then kept updated and consistent.",
+   "tags": [
+    "WordPress",
+    "PHP",
+    "Maintenance"
+   ]
+  },
+  {
+   "href": "",
+   "img": "/assets/employment4youth-10.webp",
+   "alt": "Employment4Youth — screenshot",
+   "where": "UNIDO · Tunisia",
+   "title": "Employment4Youth",
+   "text": "Project website designed and built end to end for a UN programme.",
+   "tags": [
+    "Design",
+    "WordPress",
+    "Responsive"
+   ]
+  },
+  {
+   "href": "https://smarthealth-sa.com/",
+   "img": "/assets/healthcare-platform-11.webp",
+   "alt": "Healthcare platform — screenshot",
+   "where": "SmartHealth · Saudi Arabia",
+   "title": "Healthcare platform",
+   "text": "Page design in Figma, then full WordPress integration.",
+   "tags": [
+    "Figma",
+    "WordPress"
+   ]
+  },
+  {
+   "href": "",
+   "img": "/assets/work-life-balance-platform-12.webp",
+   "alt": "Work-life balance platform — screenshot",
+   "where": "Tawazon · Saudi Arabia",
+   "title": "Work-life balance platform",
+   "text": "Designed in Figma, coded as a responsive front-end.",
+   "tags": [
+    "Figma",
+    "HTML/CSS"
+   ]
+  },
+  {
+   "href": "",
+   "img": "/assets/conference-website-13.webp",
+   "alt": "Conference website — screenshot",
+   "where": "Alliance for Industry 4.0 in Africa (AISMA)",
+   "title": "Conference website",
+   "text": "Conference site on smart manufacturing in Africa.",
+   "tags": [
+    "Design",
+    "WordPress"
+   ]
+  },
+  {
+   "href": "",
+   "img": "/assets/high-pressure-cleaning-store-14.webp",
+   "alt": "High-pressure cleaning store — screenshot",
+   "where": "Dimaco · France",
+   "title": "High-pressure cleaning store",
+   "text": "Catalogue and guided product finder for industrial equipment.",
+   "tags": [
+    "Next.js",
+    "React"
+   ]
+  },
+  {
+   "href": "",
+   "img": "/assets/industrial-equipment-store-15.webp",
+   "alt": "Industrial equipment store — screenshot",
+   "where": "Hydroclean · France",
+   "title": "Industrial equipment store",
+   "text": "Large catalogue with filtering and a step-by-step finder.",
+   "tags": [
+    "Next.js",
+    "React"
+   ]
+  },
+  {
+   "href": "https://eclair-recrutement.com/",
+   "img": "/assets/recruitment-agency-16.webp",
+   "alt": "Recruitment agency — screenshot",
+   "where": "Eclair · France",
+   "title": "Recruitment agency",
+   "text": "Corporate site for a recruitment agency.",
+   "tags": [
+    "Figma",
+    "WordPress"
+   ]
+  },
+  {
+   "href": "https://www.auditionconseil.fr/",
+   "img": "/assets/hearing-care-network-17.webp",
+   "alt": "Hearing-care network — screenshot",
+   "where": "Audition Conseil · France",
+   "title": "Hearing-care network",
+   "text": "Service pages and store locator for a hearing-care network.",
+   "tags": [
+    "WordPress",
+    "UI design"
+   ]
+  },
+  {
+   "href": "https://www.mybeers.fr/",
+   "img": "/assets/bar-amp-bottle-shop-18.webp",
+   "alt": "Bar &amp; bottle shop — screenshot",
+   "where": "My Beers · France",
+   "title": "Event Beer Bar Franchise",
+   "text": "Site for a craft beer bar, shop and events space.",
+   "tags": [
+    "WordPress",
+    "UI design"
+   ]
+  },
+  {
+   "href": "https://2wayanalytics.com/",
+   "img": "/assets/2wayanalytics-19.webp",
+   "alt": "2WayAnalytics — screenshot",
+   "where": "2WayAnalytics",
+   "title": "AI social analytics SaaS",
+   "text": "Marketing site for an AI social-media analytics product, hand-coded across multiple pages.",
+   "tags": [
+    "HTML/CSS",
+    "JavaScript",
+    "Responsive"
+   ]
+  }
+ ],
  "skills": [
   {
    "group": "WordPress",

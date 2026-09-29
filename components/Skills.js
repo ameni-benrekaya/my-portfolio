@@ -5,22 +5,20 @@ export default function Skills() {
     <section id="skills">
       <div className="shead rise">
         <h2 className="t-h2">Tools &amp; technologies</h2>
-        <p className="t-body">What I reach for daily, and what I've worked with along the way.</p>
+        <p className="t-body">What I reach for daily, and what I&apos;ve worked with along the way.</p>
       </div>
       {skills.map((g) => (
         <div className="skill rise" key={g.group}>
           <h3>{g.group}</h3>
           <div className="pills">
             {g.items.map((i) => (
-              <span key={i.label} className={i.dim ? "dim" : undefined}>
-                {i.label}
-              </span>
+              <span key={i.label} className={i.dim ? "dim" : undefined}>{i.label}</span>
             ))}
           </div>
         </div>
       ))}
       <p className="note rise">
-        Dashed items are tools I've used on projects but don't position myself as a specialist in.
+        Dashed items are tools I&apos;ve used on projects but don&apos;t position myself as a specialist in.
       </p>
     </section>
   );

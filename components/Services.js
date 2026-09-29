@@ -5,7 +5,7 @@ export default function Services() {
     <section id="services">
       <div className="shead rise">
         <h2 className="t-h2">What I do</h2>
-        <p className="t-body">Four stages, one person. Hover a stage to see what it covers.</p>
+        <p className="t-body">Four stages, one person. Tap or hover a stage to see what it covers.</p>
       </div>
       <div className="panels rise" id="panels">
         {site.services.map((s, i) => (
@@ -14,11 +14,7 @@ export default function Services() {
             <h3 className="t-h3">{s.title}</h3>
             <div className="body">
               <p className="t-body">{s.text}</p>
-              <ul>
-                {s.tags.map((t) => (
-                  <li key={t}>{t}</li>
-                ))}
-              </ul>
+              <ul>{s.tags.map((t) => <li key={t}>{t}</li>)}</ul>
             </div>
           </article>
         ))}

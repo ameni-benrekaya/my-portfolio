@@ -2,13 +2,14 @@
 import { useEffect } from "react";
 
 /**
- * All page motion in one place: heading word reveal, scroll reveals,
- * the rotating audience line, service panels, odometer numbers,
- * scroll progress and the auto-hiding nav.
- * Runs once after mount — the markup itself stays server-rendered.
+ * Theme toggle, word reveals, the rotating audience line, the service panels
+ * and the service panels. The page renders complete without it — this only
+ * layers the motion on top once JavaScript is available.
  */
 export default function Motion() {
   useEffect(() => {
+    document.body.classList.remove("no-js");
+    document.body.classList.add("js");
       var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       
         /* theme */
@@ -73,35 +74,6 @@ export default function Motion() {
           p.addEventListener('keydown', function(e){
             if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(p); }
           });
-        });
-      
-        /* odometer numbers */
-        document.querySelectorAll('.nrow').forEach(function(row){
-          var box = row.querySelector('.odo');
-          // Prevent double-initialisation (React strict mode runs effects twice in dev)
-          if (!box || box.querySelector('.dig')) return;
-          var target = row.dataset.num, suffix = row.dataset.suffix || '';
-          target.split('').forEach(function(d){
-            var dig = document.createElement('span'); dig.className = 'dig';
-            var col = document.createElement('u');
-            for (var r = 0; r < 2; r++) for (var i = 0; i <= 9; i++) {
-              var b = document.createElement('b'); b.textContent = i; col.appendChild(b);
-            }
-            dig.appendChild(col); dig.dataset.target = d; box.appendChild(dig);
-          });
-          if (suffix) { var sp = document.createElement('span'); sp.className = 'suf'; sp.textContent = suffix; box.appendChild(sp); }
-          var io2 = new IntersectionObserver(function(es){
-            es.forEach(function(e){
-              if (!e.isIntersecting) return;
-              box.querySelectorAll('.dig').forEach(function(dig, k){
-                var col = dig.querySelector('u');
-                col.style.transitionDelay = (k * 110) + 'ms';
-                col.style.transform = 'translateY(-' + (parseInt(dig.dataset.target, 10) + (reduce ? 0 : 10)) + 'em)';
-              });
-              io2.unobserve(e.target);
-            });
-          }, { threshold: 0.4 });
-          io2.observe(row);
         });
       
         /* scroll progress + nav */
