@@ -239,6 +239,240 @@
             </p>
           </div>
 
+          <!-- Polices Google : Plus Jakarta Sans (UI moderne), Instrument Serif (italique éditorial) & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Halo de lumière interactif -->
+  <div id="ambient-spotlight" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header
+    style="position: sticky; top: 0; z-index: 50; background: rgba(250, 248, 253, 0.86); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid rgba(0, 0, 0, 0.05);">
+    <div
+      style="max-width: 1240px; margin: 0 auto; padding: 0 24px; height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 16px;">
+
+      <!-- Logo / Monogramme -->
+      <a href="#top" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit;">
+        <span
+          style="width: 38px; height: 38px; border-radius: 12px; background: #14131B; color: #FFF; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 14px; letter-spacing: -0.02em;">AB</span>
+        <div>
+          <div style="font-weight: 700; font-size: 15.5px; letter-spacing: -0.02em;">Ameni Ben Rekaya</div>
+          <div style="font-size: 11.5px; color: var(--text-light); line-height: 1;">WordPress & Front-End Dev</div>
+        </div>
+      </a>
+
+      <!-- Liens de navigation avec défilement fluide -->
+      <nav style="display: flex; align-items: center; gap: 28px;" class="hide-mobile">
+        <a href="#about"
+          style="color: var(--text-muted); text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;"
+          onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-muted)'">About</a>
+        <a href="#work"
+          style="color: var(--text-muted); text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;"
+          onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-muted)'">Selected
+          Work</a>
+        <a href="#markets"
+          style="color: var(--text-muted); text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;"
+          onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-muted)'">Markets</a>
+        <a href="#toolkit"
+          style="color: var(--text-muted); text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;"
+          onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-muted)'">Toolkit</a>
+        <a href="#contact"
+          style="color: var(--text-muted); text-decoration: none; font-size: 14px; font-weight: 500; transition: color 0.2s;"
+          onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-muted)'">Contact</a>
+      </nav>
+
+      <!-- Sélecteur de palettes & CTA -->
+      <div style="display: flex; align-items: center; gap: 14px;">
+
+
+        <a href="#contact" class="btn-pill-primary" style="height: 40px; padding: 0 18px; font-size: 13.5px;">
+          <span>Let's talk</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 17L17 7M7 7h10v10" />
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <main style="position: relative; z-index: 5;">
+
+    <!-- ==========================================================================
+         1. HERO SECTION (AVEC PORTRAIT, ÉTOILES ET WIDGETS FLOTTANTS)
+         ========================================================================== -->
+    <section id="top" style="max-width: 1200px; margin: 0 auto; padding: 50px 24px 80px; position: relative;">
+
+      <div class="hero-grid"
+        style="display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 48px; align-items: center;">
+
+        <div>
+          <div
+            style="display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px; border-radius: 9999px; background: rgba(255, 255, 255, 0.9); border: 1px solid var(--accent-border); font-size: 12.5px; font-weight: 600; color: var(--text-main); margin-bottom: 24px; box-shadow: 0 4px 12px -2px var(--accent-soft);">
+            <span
+              style="width: 8px; height: 8px; border-radius: 50%; background: #10B981; animation: pulseRing 2s infinite; display: inline-block;"></span>
+            Available for freelance & full-time roles · Sousse, Tunisia (GMT+1)
+          </div>
+
+          <h1
+            style="font-size: clamp(38px, 4.3vw, 60px); font-weight: 800; line-height: 1.06; letter-spacing: -0.04em; color: var(--text-main); margin-bottom: 22px;">
+            WordPress developer<br>
+            with a <span style="color: var(--accent);">designer’s eye</span><br>
+            <span class="font-serif-italic" style="color: var(--text-main); font-size: 1.05em;">and an AI
+              workflow.</span>
+          </h1>
+
+          <p
+            style="font-size: 16.5px; line-height: 1.65; color: var(--text-muted); max-width: 530px; margin-bottom: 34px;">
+            I bridge UI design and clean front-end & WordPress engineering. I ship websites that don’t break a year
+            later and stay intuitive to edit. By letting AI handle boilerplate tasks, I dedicate every hour to
+            rock-solid code, speed, and strategic design. </p>
+
+          <div style="display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 40px;">
+            <a href="#work" class="btn-pill-primary">
+              <span>See my work</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 5v14M5 12l7 7 7-7" />
+              </svg>
+            </a>
+            <a href="#about" class="btn-pill-ghost">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 4v11M7 10l5 5 5-5M5 20h14" />
+              </svg>
+              <span>Download CV</span>
+            </a>
+          </div>
+
+          <div style="display: flex; align-items: center; gap: 18px; font-size: 13px; color: var(--text-light);">
+            <span>Sousse, Tunisia · GMT+1</span>
+            <span>·</span>
+            <span>English · French · Arabic</span>
+          </div>
+        </div>
+
+        <!-- Colonne droite : Portrait & 3 Nouveaux Widgets UI -->
+        <div
+          style="position: relative; display: flex; justify-content: center; align-items: center; min-height: 520px; perspective: 1200px;">
+
+          <div class="floating-decor floating-star"
+            style="position: absolute; top: 15px; left: -20px; z-index: 12; pointer-events: none;">
+            <svg width="42" height="42" viewBox="0 0 24 24" fill="var(--gold-star)" stroke="#F59E0B" stroke-width="1.2">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+          </div>
+          <div class="floating-decor floating-star-delayed"
+            style="position: absolute; top: 25px; right: -15px; z-index: 12; pointer-events: none;">
+            <svg width="46" height="46" viewBox="0 0 24 24" fill="var(--gold-star)" stroke="#F59E0B" stroke-width="1.2">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+          </div>
+          <div class="floating-decor floating-star"
+            style="position: absolute; top: 140px; right: -30px; z-index: 12; pointer-events: none;">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="var(--gold-star)" stroke="#F59E0B" stroke-width="1.2">
+              <polygon
+                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+            </svg>
+          </div>
+
+          <!-- Carte portrait interactive 3D Tilt -->
+          <div id="portrait-tilt" class="glass-card"
+            style="width: 320px; padding: 12px; border-radius: 32px; background: rgba(255, 255, 255, 0.9); box-shadow: 0 30px 60px -15px var(--accent-glow); cursor: pointer; transition: transform 0.15s ease-out;">
+            <div
+              style="position: relative; width: 100%; aspect-ratio: 3 / 4; border-radius: 24px; overflow: hidden; background: #FAF5FF;">
+              <img src="images/photo.jpg" alt="Ameni Ben Rekaya - Illustration Développeuse"
+                style="width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block;">
+              <div
+                style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(20, 19, 27, 0.45) 0%, transparent 40%); pointer-events: none;">
+              </div>
+
+              <div
+                style="position: absolute; bottom: 16px; left: 16px; right: 16px; color: #FFF; display: flex; justify-content: space-between; align-items: flex-end;">
+                <div>
+                  <div style="font-weight: 700; font-size: 16px;">Ameni</div>
+                  <div style="font-size: 11.5px; opacity: 0.9;">UI Designer & Full Web Dev</div>
+                </div>
+                <div
+                  style="padding: 4px 10px; border-radius: 9999px; background: rgba(255,255,255,0.25); backdrop-filter: blur(6px); font-size: 11px; font-weight: 600;">
+                  9 yrs</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ==========================================================
+               NOUVEAU DESIGN : LES 3 BLOCS FLOTTANTS REDESSINÉS
+               ========================================================== -->
+
+          <!-- BLOC 1 (HAUT-GAUCHE) : WordPress & Gutenberg / Clean Code -->
+          <div class="glass-card animate-float-1 floating-decor"
+            style="position: absolute; top: 10px; left: -60px; width: 220px; padding: 14px 16px; z-index: 15;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+              <div style="display: flex; align-items: center; gap: 7px;">
+                <span
+                  style="width: 22px; height: 22px; border-radius: 6px; background: #14131B; color: #FFF; display: inline-flex; align-items: center; justify-content: center; font-size: 11px;">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M12 3l9 5-9 5-9-5 9-5z" />
+                    <path d="M3 13l9 5 9-5" />
+                  </svg>
+                </span>
+                <span style="font-size: 11.5px; font-weight: 700; color: var(--text-main);">WordPress Dev</span>
+              </div>
+              <span
+                style="font-size: 10px; font-weight: 700; color: #059669; background: rgba(16, 185, 129, 0.12); padding: 2px 7px; border-radius: 9999px;">Zero
+                Bloat</span>
+            </div>
+
+            <div class="font-mono"
+              style="font-size: 11px; color: var(--text-muted); background: rgba(0,0,0,0.03); padding: 7px 9px; border-radius: 8px; border: 1px solid rgba(0,0,0,0.04); margin-bottom: 8px;">
+              <span style="color: var(--accent);">&lt;CustomBlock</span> <span style="color: #6B7280;">fse={true}
+                /&gt;</span>
+            </div>
+
+            <div style="display: flex; gap: 5px;">
+              <span class="tag-pill" style="font-size: 10px; padding: 2px 8px;">Gutenberg</span>
+              <span class="tag-pill" style="font-size: 10px; padding: 2px 8px;">ACF Pro</span>
+              <span class="tag-pill" style="font-size: 10px; padding: 2px 8px;">PHP</span>
+            </div>
+          </div>
+
+          <!-- BLOC 2 (HAUT-DROIT) : Arabic RTL & Bi-Directional Layouts -->
+          <div class="glass-card animate-float-2 floating-decor"
+            style="position: absolute; top: 35px; right: -55px; width: 210px; padding: 14px 16px; z-index: 15;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+              <span
+                style="font-size: 10.5px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent);">RTL
+                Specialization</span>
+              <span
+                style="font-size: 10px; font-weight: 700; background: var(--accent-soft); color: var(--accent); padding: 2px 6px; border-radius: 6px;">100%
+                Native</span>
+            </div>
+
+            <div style="display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px;">
+              <span
+                style="font-size: 19px; font-weight: 700; color: var(--text-main); font-family: system-ui;">العربية</span>
+              <span style="font-size: 12px; color: var(--text-light); font-weight: 500;">LTR ⇄ RTL</span>
+            </div>
+
+            <p style="font-size: 11px; line-height: 1.4; color: var(--text-muted); margin: 0;">
+              Bi-directional layouts designed & built natively from day one.
+            </p>
+          </div>
+
           <!-- BLOC 3 (BAS-GAUCHE) : Figma to Clean Code (Pixel Perfect) -->
           <div class="glass-card animate-float-3 floating-decor"
             style="position: absolute; bottom: 35px; left: -50px; width: 225px; padding: 14px 16px; z-index: 15;">
